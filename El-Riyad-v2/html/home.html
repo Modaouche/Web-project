@@ -4,25 +4,25 @@
         <title>Al Riyad</title>
         <meta charset="utf-8">
         <link rel="shortcut icon" href="../images/tajine_favicon.png"><!--not clean-->
+        <link href="../styles/home.css" rel="stylesheet"><!--not clean-->
         <meta name="description" content="This is our website restaurant that brings you all the information that you need to know about El Riyad">
     </head>
 
     <body>
-        <header>
-           <h1 id="top">Al Riyad, it's tajine time !</h1>
+        <header class= "header">
+           <h1 id="top" class="title">Al Riyad, it's tajine time !</h1>
+
+            <nav class="header-nav">
+                <a href="Menus/menu_breakfast.html">Menu for breakfast</a>
+                <a href="Menus/menu_week.html">Menu of the week</a>
+                <a href="#ingredient">Ingredients</a>
+                <a href="#about_us">History / About us</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </header>
-
-        <nav>
-            <a href="menus/menu_breakfast.html">Menu for breakfast</a>
-            <a href="menus/menu_week.html">Menu of the week</a>
-            <a href="#ingredient">Ingredients</a>
-            <a href="#about_us">History / About us</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <img src="../images/tajine.jpg" alt="tajine plat" width="1600" height="900"><!--change with css-->
-
-        <section>
+        
+        <section class="main">        
+            <img src="../images/tajine.jpg" alt="tajine plat" width="1600" height="900"><!--change with css-->
 
             <p>
                 Most <strong>delicious</strong> Tajines, Couscous or soup that you ever taste !<br>
@@ -30,7 +30,7 @@
                 minima eligendi excepturi mollitia ratione recusandae alias tempora<br>
                 repellat sequi corporis consequatur provident!<br>
             </p>
-        
+
             <h2 id="ingredient">Ingredients</h2>
             
             <img src="../images/vegetables.jpg" alt="Fresh vegetables" width="1600" height="900">
@@ -52,7 +52,7 @@
             </p>
         </section>
 
-        <footer>
+        <footer class="footer">
             <h2 id="contact">Contact</h2>
             
             <img src="../images/contact_us.jpg" alt="counter restaurant" width="1600" height="900">
